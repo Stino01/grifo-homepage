@@ -1,29 +1,27 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <HeaderTop />
+    <HeaderFixed />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeaderFixed from './components/Head.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    HeaderFixed
   }
 }
 </script>
 
 <style lang="scss">
+:root {
+  --main-color:#FFFFFF;
+  --secondary-color:#B1252C;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: cairo, sans-serif;
 }
 </style>
