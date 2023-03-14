@@ -51,7 +51,7 @@ export default {
 
 <style lang="scss" scoped>
 .navbar {
-    background-color: white;
+    // background-color: white;
     padding: 2rem;
 
     img {

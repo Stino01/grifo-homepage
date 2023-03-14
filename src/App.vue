@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <HeaderFixed />
+    <HeroComponent />
   </div>
 </template>
 
 <script>
 import HeaderFixed from './components/Head.vue'
+import HeroComponent from './components/HeroComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    HeaderFixed
+    HeaderFixed,
+    HeroComponent
   }
 }
 </script>
