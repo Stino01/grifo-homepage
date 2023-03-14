@@ -2,18 +2,25 @@
   <div id="app">
     <HeaderFixed />
     <HeroComponent />
+    <CarouselVue/>
+    <ServiceComponent/>
   </div>
 </template>
 
 <script>
+
 import HeaderFixed from './components/Head.vue'
 import HeroComponent from './components/HeroComponent.vue'
+import ServiceComponent from './components/ServiceComponent.vue'
+import CarouselVue from './components/CarouselComponent.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderFixed,
-    HeroComponent
+    HeroComponent,
+    CarouselVue,
+    ServiceComponent,
   }
 }
 </script>
