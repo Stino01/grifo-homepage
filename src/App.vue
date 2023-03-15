@@ -4,6 +4,7 @@
     <HeroComponent />
     <CarouselVue/>
     <ServiceComponent/>
+    <FactoryComponent/>
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import HeaderFixed from './components/Head.vue'
 import HeroComponent from './components/HeroComponent.vue'
 import ServiceComponent from './components/ServiceComponent.vue'
 import CarouselVue from './components/CarouselComponent.vue'
+import FactoryComponent from './components/FactoryComponent.vue'
 
 export default {
   name: 'App',
@@ -21,6 +23,7 @@ export default {
     HeroComponent,
     CarouselVue,
     ServiceComponent,
+    FactoryComponent,
   }
 }
 </script>
