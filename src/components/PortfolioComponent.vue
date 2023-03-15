@@ -92,7 +92,7 @@ h1 {
             flex-flow: column nowrap;
             justify-content: space-between;
             align-items: flex-start;
-            padding: 1.5rem;
+            padding:  2rem 1.5rem;
 
             .top {
 
