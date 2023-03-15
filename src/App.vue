@@ -5,6 +5,7 @@
     <CarouselVue/>
     <ServiceComponent/>
     <FactoryComponent/>
+    <PortfolioComponent/>
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import HeroComponent from './components/HeroComponent.vue'
 import ServiceComponent from './components/ServiceComponent.vue'
 import CarouselVue from './components/CarouselComponent.vue'
 import FactoryComponent from './components/FactoryComponent.vue'
+import PortfolioComponent from './components/PortfolioComponent.vue'
 
 export default {
   name: 'App',
@@ -24,6 +26,7 @@ export default {
     CarouselVue,
     ServiceComponent,
     FactoryComponent,
+    PortfolioComponent,
   }
 }
 </script>
