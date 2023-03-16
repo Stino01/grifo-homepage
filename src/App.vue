@@ -7,6 +7,7 @@
     <FactoryComponent/>
     <PortfolioComponent/>
     <FormComponent/>
+    <FooterComponent/>
   </div>
 </template>
 
@@ -19,6 +20,7 @@ import CarouselVue from './components/CarouselComponent.vue'
 import FactoryComponent from './components/FactoryComponent.vue'
 import PortfolioComponent from './components/PortfolioComponent.vue'
 import FormComponent from './components/FormComponent.vue'
+import FooterComponent from './components/FooterComponent.vue'
 
 export default {
   name: 'App',
@@ -30,6 +32,7 @@ export default {
     FactoryComponent,
     PortfolioComponent,
     FormComponent,
+    FooterComponent
   }
 }
 </script>
