@@ -11,7 +11,7 @@
                     <i class="fa-brands fa-instagram"></i>
                 </div>
                 <h4>Iscriviti alla newsletter e resta sempre aggiornato.</h4>
-                <input type="text" placeholder="Email *">
+                <input type="text" placeholder="Email *"><br>
                 <a href="">Iscriviti</a>
             </div>
             <div class="center col-xs-12 col-md-4">
@@ -44,7 +44,7 @@ footer {
 
     .row {
         margin: 0 auto;
-        padding: 5rem 0;
+        padding: 8rem 0;
     }
 
     .left {

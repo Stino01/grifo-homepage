@@ -40,7 +40,8 @@ h1 {
 }
 
 .form {
-    padding: 3rem 15rem;
+    width: 80%;
+    margin: 3rem auto;
 
     .text {
         padding: 0.5rem 1rem;

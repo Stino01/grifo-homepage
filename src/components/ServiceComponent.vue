@@ -1,18 +1,18 @@
 <template>
     <section id="service">
-        <div class="card img1">
+        <div class="card img1 col-xs-12 col-md-4">
             <div class="data">
                 <h1>Digital Learning</h1>
                 <a href="#">Scopri</a>
             </div>
         </div>
-        <div class="card img2">
+        <div class="card img2 col-xs-12 col-md-4">
             <div class="data">
                 <h1>Gamification</h1>
                 <a href="#">Scopri</a>
             </div>
         </div>
-        <div class="card img3">
+        <div class="card img3 col-xs-12 col-md-4">
             <div class="data">
                 <h1>Servizi & Consulenza</h1>
                 <a href="#">Scopri</a>  
@@ -36,7 +36,6 @@ export default {
     flex-flow: row wrap;
 
     .card {
-        width: calc(100% / 3);
         background-size: cover;
         padding: 18rem 0;
         border-radius: 0;

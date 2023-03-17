@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class="container py-5">
+        <div class="container">
             <h1>Azienda</h1>
             <p>Grifo è una Pmi innovativa che da oltre venti anni sviluppa soluzioni di e-learning & gamification per l’empowerment delle persone e delle organizzazioni.</p>
             <a href="#">Scopri</a>
@@ -39,6 +39,7 @@ export default {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    padding: 6rem 0;
 
     h1 {
         font-size: 3rem;
@@ -66,13 +67,14 @@ export default {
 }
 
 .training {
-    background-color: black;
+    background-color: #16171D;
 
     .container {
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
         align-items: center;
+        padding: 0;
 
         .block {
             width: calc(100% / 3);
